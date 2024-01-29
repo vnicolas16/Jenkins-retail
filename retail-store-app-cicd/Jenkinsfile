@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment{
         DOCKER_HUB_LOGIN = credentials('docker')
-        REGISTRY = "roxsross12"
-        REPOSITORY= "retail-store-app"
+        REGISTRY = "vnicolas16"
+        REPOSITORY= " retail-store-app-cicd"
         SERVER= "ec2-user@35.84.193.83"
     }
     stages {
